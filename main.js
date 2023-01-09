@@ -18,6 +18,7 @@ let spaceshipY = canvas.height-60
 
 let bulletLIst = [] //총알 저장하는 리스트
 
+
 function Bullet(){
     this.x = 0
     this.y = 0
@@ -49,6 +50,8 @@ function Bullet(){
 function generateRandomValue(min, max){
     let randomNum = Math.floor(Math.random()*(max-min+1))+min;
     return randomNum;
+
+    
 }
 
 let enemyList=[]
